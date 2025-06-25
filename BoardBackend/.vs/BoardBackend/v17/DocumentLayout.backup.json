@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\boardbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:boardbackend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\services\\boardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:services\\boardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|c:\\users\\cyeon\\study\\teampjt-test\\boardbackend\\models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{869DABB0-C47F-4569-B83E-20A0E901EBCE}|BoardBackend.csproj|solutionrelative:models\\models.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBkAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:29:27.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAUwIIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:30:01.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BoardService.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Services\\BoardService.cs",
+              "RelativeDocumentMoniker": "Services\\BoardService.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Services\\BoardService.cs",
+              "RelativeToolTip": "Services\\BoardService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUBAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:32:40.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T15:44:53.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-25T16:02:33.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:25:39.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardBackend.csproj",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\BoardBackend.csproj",
+              "RelativeDocumentMoniker": "BoardBackend.csproj",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\BoardBackend.csproj",
+              "RelativeToolTip": "BoardBackend.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-25T14:26:10.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:49:05.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BoardController.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Controllers\\BoardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BoardController.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Controllers\\BoardController.cs",
+              "RelativeToolTip": "Controllers\\BoardController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowHEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:49:16.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Services\\EmailService.cs",
+              "RelativeToolTip": "Services\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:30:31.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Models.cs",
+              "DocumentMoniker": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Models\\Models.cs",
+              "RelativeDocumentMoniker": "Models\\Models.cs",
+              "ToolTip": "C:\\Users\\cyeon\\STUDY\\teampjt-test\\BoardBackend\\Models\\Models.cs",
+              "RelativeToolTip": "Models\\Models.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-25T14:27:57.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

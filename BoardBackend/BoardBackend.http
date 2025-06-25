@@ -1,0 +1,6 @@
+@BoardBackend_HostAddress = http://localhost:5023
+
+GET {{BoardBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
