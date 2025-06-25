@@ -7,11 +7,12 @@ using BoardBackend.Services;
 namespace BoardBackend.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
-    [Authorize] // JWT 토큰 인증 필요
+    [Route("api/[controller]")]     //controller 를 제외한 컨트롤러 이름(asp.net 에서 소문자로 변환함)
+    [Authorize]      // JWT 토큰 인증 필요 토큰 없으면 401 Unauthorized 에러 남
     public class BoardController : ControllerBase
     {
         private readonly IBoardService _boardService;
+        //앞에 i를 붙여서 인터페이스, 즉 "추상화"를 지칭.
 
         public BoardController(IBoardService boardService)
         {
@@ -30,8 +31,9 @@ namespace BoardBackend.Controllers
         [HttpGet]
         public async Task<IActionResult> GetBoards()
         {
-            var userId = GetCurrentUserId();
+            var userId = GetCurrentUserId(); 
             var result = await _boardService.GetBoardsAsync(userId);
+            //result를 GET: api/board로 보냄
 
             if (result.Success)
             {

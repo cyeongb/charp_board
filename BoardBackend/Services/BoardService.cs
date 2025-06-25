@@ -5,6 +5,7 @@ using BoardBackend.Models;
 namespace BoardBackend.Services
 {
     public interface IBoardService
+    //앞에 i를 붙여서 인터페이스, 즉 "추상화"를 지칭.
     {
         Task<ApiResponse<List<BoardResponse>>> GetBoardsAsync(int userId);
         Task<ApiResponse<BoardResponse>> GetBoardByIdAsync(int id, int userId);
@@ -18,7 +19,8 @@ namespace BoardBackend.Services
         private readonly ApplicationDbContext _context;
 
         public BoardService(ApplicationDbContext context)
-        {
+        { //디비 작업을 처리하기 위한 컨텍스트
+        //
             _context = context;
         }
 
@@ -28,9 +30,10 @@ namespace BoardBackend.Services
             try
             {
                 var boards = await _context.Boards
-                    .Include(b => b.User)
+                    .Include(b => b.User)  //user.id 를 fk로 가지고있어 참조하는 상태.
                     .OrderByDescending(b => b.CreatedAt)
-                    .Select(b => new BoardResponse
+                    .Select(b => new BoardResponse  //b 는 board 의 각 행
+                    // BoardResponse 타입으로 내보내기 위한 작업
                     {
                         Id = b.Id,
                         Title = b.Title,
@@ -39,15 +42,16 @@ namespace BoardBackend.Services
                         CreatedAt = b.CreatedAt,
                         UpdatedAt = b.UpdatedAt,
                         ViewCount = b.ViewCount,
-                        CanEdit = b.UserId == userId
+                        CanEdit = b.UserId == userId //현재사용자인지 판별
                     })
-                    .ToListAsync();
+                    .ToListAsync();  //쿼리를 실행하여 데이터를 메모리에 로드. 결과는 List로 반환함 List<BoardResponse>
 
                 return new ApiResponse<List<BoardResponse>>
                 {
                     Success = true,
                     Message = "게시글 목록 조회 성공",
                     Data = boards
+                    //데이터에 담아서 api 에 담아서 프론트로 보냄
                 };
             }
             catch (Exception ex)
