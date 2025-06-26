@@ -57,7 +57,7 @@ namespace BoardBackend.Services
                 using (var client = new SmtpClient())
                 {
                     await client.ConnectAsync("cyeongb@naver.com", 587, SecureSocketOptions.StartTls);
-                    await client.AuthenticateAsync(emailSettings["cyeongb@naver.com"], emailSettings["dudql0102!"]);
+                    await client.AuthenticateAsync(emailSettings["cyeongb@naver.com"], emailSettings["0000"]);
                     await client.SendAsync(message);
                     await client.DisconnectAsync(true);
                 }
