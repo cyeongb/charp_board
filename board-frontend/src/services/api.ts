@@ -53,7 +53,9 @@ export const authAPI = {
 
   // 회원가입
   register: async (data: RegisterRequest): Promise<ApiResponse<string>> => {
+    console.log("register() 호출");
     const response: AxiosResponse<ApiResponse<string>> = await api.post('/auth/register', data);
+    console.log("response =>> ",response);
     return response.data;
   },
 

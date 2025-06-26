@@ -16,7 +16,7 @@ import {
   EditNoteOutlined,
   CreateOutlined,
 } from '@mui/icons-material';
-import type { Board, BoardRequest } from '../types';
+import type { BoardRequest } from '../types';
 import { boardAPI } from '../services/api';
 
 // 게시글 작성/수정 페이지 컴포넌트
@@ -59,7 +59,7 @@ const BoardFormPage: React.FC = () => {
         setError(response.message || '게시글을 불러오는데 실패했습니다.');
       }
     } catch (error) {
-      setError('게시글을 불러오는 중 오류가 발생했습니다.');
+      setError(error+'게시글을 불러오는 중 오류가 발생했습니다.');
     } finally {
       setLoading(false);
     }
@@ -130,7 +130,7 @@ const BoardFormPage: React.FC = () => {
         setError(response.message || '게시글 저장에 실패했습니다.');
       }
     } catch (error) {
-      setError('게시글 저장 중 오류가 발생했습니다.');
+      setError(error+'게시글 저장 중 오류가 발생했습니다.');
     } finally {
       setLoading(false);
     }

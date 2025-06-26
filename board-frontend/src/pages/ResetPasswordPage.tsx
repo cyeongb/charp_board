@@ -86,7 +86,7 @@ const ResetPasswordPage: React.FC = () => {
         setError(response.message || '비밀번호 재설정 중 오류가 발생했습니다.');
       }
     } catch (error) {
-      setError('비밀번호 재설정 중 오류가 발생했습니다. 다시 시도해주세요.');
+      setError(error+'비밀번호 재설정 중 오류가 발생했습니다. 다시 시도해주세요.');
     } finally {
       setLoading(false);
     }

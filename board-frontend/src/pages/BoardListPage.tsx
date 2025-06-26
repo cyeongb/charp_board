@@ -34,7 +34,7 @@ const BoardListPage: React.FC = () => {
         setError(response.message || '게시글을 불러오는데 실패했습니다.');
       }
     } catch (error) {
-      setError('게시글을 불러오는 중 오류가 발생했습니다.');
+      setError(error+'게시글을 불러오는 중 오류가 발생했습니다.');
     } finally {
       setLoading(false);
     }

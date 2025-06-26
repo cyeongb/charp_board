@@ -1,0 +1,481 @@
+# ASP.NET Core Backend .gitignore
+
+# ===================================
+# 🔐 보안 관련 파일들 (절대 커밋하면 안됨!)
+# ===================================
+*.key
+*.pem
+*.pfx
+*.p12
+secrets.json
+appsettings.Production.json
+appsettings.Staging.json
+ConnectionStrings.json
+JwtSettings.json
+
+# ===================================
+# 🏗️ Build Results
+# ===================================
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# ===================================
+# 💼 Visual Studio
+# ===================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+mono_crash.*
+
+# ===================================
+# 🔧 Build Files
+# ===================================
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# ===================================
+# 📦 NuGet
+# ===================================
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ===================================
+# 🧪 Test Results
+# ===================================
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# ===================================
+# 🗄️ Entity Framework
+# ===================================
+# Migrations - 개발 중 임시 마이그레이션 제외
+**/Migrations/temp_*
+**/Migrations/*_temp.cs
+# 다음 줄 주석 해제하면 모든 마이그레이션 제외 (비추천)
+# **/Migrations/
+
+# ===================================
+# 🛠️ Tools and Extensions
+# ===================================
+# ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# CodeRush personal settings
+.cr/personal
+
+# ===================================
+# 🎯 Profiling and Debugging
+# ===================================
+*.psess
+*.vsp
+*.vspx
+*.sap
+*.e2e
+
+# ===================================
+# 📊 Code Coverage
+# ===================================
+# AxoCover
+.axoCover/*
+!.axoCover/settings.json
+
+# Coverlet
+coverage*.json
+coverage*.xml
+coverage*.info
+
+# Visual Studio code coverage results
+*.coverage
+*.coveragexml
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+nCrunchTemp_*
+
+# ===================================
+# 🌐 Web Related
+# ===================================
+# Web workbench (sass)
+.sass-cache/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings
+*.azurePubxml
+
+# ===================================
+# 🐳 Docker
+# ===================================
+**/Dockerfile.dev
+**/docker-compose.override.yml
+**/docker-compose.local.yml
+
+# ===================================
+# 📁 File System
+# ===================================
+# User-specific files
+*.rsuser
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Folder config file
+[Dd]esktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# ===================================
+# 💼 HR System Specific
+# ===================================
+# 직원 개인정보 파일
+EmployeePhotos/
+PersonalDocuments/
+SalaryData/
+ConfidentialData/
+
+# 백업 파일
+*.backup
+*.old
+*_backup.*
+
+# 로그 파일
+Logs/
+*.log
+audit-logs/
+
+# 임시 생성 파일
+temp/
+uploads/temp/
+reports/temp/
+
+# 엑셀 및 PDF 생성 파일
+GeneratedReports/
+ExportedData/
+
+# QR코드 및 바코드
+QRCodes/
+Barcodes/
+
+# 이메일 첨부파일 임시 저장소
+EmailAttachments/temp/
+
+# ===================================
+# 🔧 Development Tools
+# ===================================
+# Local development database
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Backup database files
+*.bak
+*.dump
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# MightyMoose
+*.mm.*
+AutoTest.Net/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_h.h
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Visual Studio Trace Files
+*.e2e
+
+# TFS 2012 Local Workspace
+$tf/
+
+# Guidance Automation Toolkit
+*.gpState
+
+# Web workbench (sass)
+.sass-cache/
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocProject is a documentation generator add-in
+DocProject/buildhelp/
+DocProject/Help/*.HxT
+DocProject/Help/*.HxC
+DocProject/Help/Html2
+DocProject/Help/html
+
+# Click-Once directory
+publish/
+
+# Publish Web Output
+*.[Pp]ublish.xml
+*.azurePubxml
+*.pubxml
+*.publishproj
+
+# Microsoft Azure Web App publish settings
+*.azurePubxml
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Microsoft Azure Emulator
+ecf/
+rcf/
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# Visual Studio cache files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio 2015/2017 cache/options directory
+.vs/
+
+# Uncomment if you have tasks that create the project's static files in wwwroot
+#wwwroot/
+
+# Visual Studio 2017 auto generated files
+Generated\ Files/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Build Results of an ATL Project
+[Dd]ebugPS/
+[Rr]eleasePS/
+dlldata.c
+
+# Benchmark Results
+BenchmarkDotNet.Artifacts/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Files built by Visual Studio
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.iobj
+*.pch
+*.pdb
+*.ipdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*_wpftmp.csproj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
